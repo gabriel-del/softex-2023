@@ -5,10 +5,10 @@ console.log(array.shift())
 //: Do primeiro ao último
 
 //lista
-console.log(array.pop())
-//: Do último ao primeiro
-
-//pilha
 array.splice(0, 1)
 console.log(array)
-//: Do primeiro ao último
+//: Em qualquer ordem; Nessa configuração seria do primeiro ao último
+
+//pilha
+console.log(array.pop())
+//: Do último ao primeiro
