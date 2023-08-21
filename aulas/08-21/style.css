@@ -1,0 +1,32 @@
+body {
+    border: solid;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+main {
+    border: solid;
+    padding: 10px;
+}
